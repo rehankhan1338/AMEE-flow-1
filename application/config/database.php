@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $active_record = TRUE;
 $CI = get_instance();
-
+//
 $db_subdomain_name=$CI->config->item("subdomain_name");
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'secondw6_amee';
